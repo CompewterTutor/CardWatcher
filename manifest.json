@@ -2,5 +2,10 @@
     "name": "Card Watcher",
     "version": "1.0a",
     "description": "Quick searching and repeatable filtering and cart actions for comc",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
     "manifest_version": 2
 }
